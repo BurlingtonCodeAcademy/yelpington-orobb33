@@ -15,17 +15,15 @@ export default function SideBar(props) {
         });
     }
   });
-  //list of bars, clickable, link styling disabled. edited to look more presentable (replaceAll)
+  //list of bars, clickable, link styling disabled. edited to look more presentable (replaceAll
   return (
     <div id="SideBar">
       <h2>Bars of Burly</h2>
       {barNames.map((id, index) => {
         return (
           <h3 key={index}>
-            <Link
-              style={{ textDecoration: "none", color: "black" }}
-              to={`/bars/${id}`}
-            >
+            <Link style={{ textDecoration: "none", color: "black" }}
+              to={`/bars/${id}`}>
               {id.replaceAll("-", " ")}
             </Link>
           </h3>
@@ -34,5 +32,3 @@ export default function SideBar(props) {
     </div>
   );
 }
-
-//  ${props.match.params.id}

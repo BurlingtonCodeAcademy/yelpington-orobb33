@@ -1,3 +1,4 @@
+
 import "./components/style/App.css";
 import Map from "./components/Map";
 import { useState } from "react";
@@ -17,21 +18,23 @@ function App() {
   });
 
   //switch routers, app.js is acting as home component. sidebar is selection of bars, bar page is individual bar info
+  /* match query here and setting zoom to zoom into map once bar page is selected */
   return (
     <div>
       <h1 id="header"> Yelpington</h1>
+      
       <div id="contentWrapper">
         <Switch>
           <Route
             exact
             path="/"
-            render={() => {
+            render={(props) => {
               return <SideBar setZoom={setZoom} />;
             }}
-          >
-            <SideBar />
-          </Route>
-{/* match query here and setting zoom to zoom into map once bar page is selected */}
+          > 
+            <SideBar/>
+           </Route>
+
           <Route
             path="/bars/:id"
             render={(props) => {
@@ -56,5 +59,5 @@ function App() {
 //setting zoom and center default above
 export default App;
 
-//title on top, map,
+
 

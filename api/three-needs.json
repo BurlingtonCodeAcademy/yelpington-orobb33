@@ -1,0 +1,10 @@
+{
+  "id": "three-needs",
+  "name": "Three Needs",
+  "address": "185 Pearl St",
+  "phonenumber": "(802) 497-0119",
+  "hours": "4pm - 2am",
+  "favoritedrink": "Cucumber G&T",
+  "lat": "44.480340",
+  "long": "-73.211710"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "taco-gordo",
+  "name": "Taco Gordo",
+  "address": "208 N Winooski Ave",
+  "phonenumber": "(802) 540-0770",
+  "hours": "12-8pm",
+  "favoritedrink": "Mr. Leathers",
+  "lat": "44.485980",
+  "long": "-73.209950"
+}

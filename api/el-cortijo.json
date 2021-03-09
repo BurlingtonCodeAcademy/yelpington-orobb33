@@ -1,0 +1,11 @@
+
+    {
+        "id": "el-cortijo",
+        "name": "El Cortijo",
+        "address": "189 Bank St",
+        "phonenumber": "(802) 497-1668",
+        "hours": "4pm - 12am",
+        "favoritedrink": "Passionfruit-Coconut-Caliente Marg",
+        "lat": "44.4780302",
+        "long": "-73.2120044"
+        }

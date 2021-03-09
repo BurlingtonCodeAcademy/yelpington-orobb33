@@ -1,0 +1,12 @@
+    {
+        "id": "pizzeria-verita",
+        "name": "Pizzeria Verita",
+        "address": "156 St. Paul St",
+        "phonenumber": "(802) 489-5644",
+        "hours": "4-10pm",
+        "favoritedrink": "Old Major",
+        "lat": "44.475220",
+        "long": "-73.213630"
+        }
+
+

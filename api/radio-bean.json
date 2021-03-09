@@ -1,0 +1,10 @@
+{
+  "id": "radio-bean",
+  "name": "Radio Bean",
+  "address": "8 North Winooski Ave",
+  "phonenumber": "(802) 660-9346",
+  "hours": "8am - 2am",
+  "favoritedrink": "Slippery Lady",
+  "lat": "44.480860",
+  "long": "-73.211090 "
+}

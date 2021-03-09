@@ -1,0 +1,13 @@
+
+
+    {
+        "id": "manhattans",
+        "name": "Manhattan's Pizza and Pub",
+        "address": "167 Main St",
+        "phonenumber": "(802) 658-6776",
+        "hours": "4pm-2am",
+        "favoritedrink": "Neat Pour of TomCat",
+        "lat": "44.47576141357422",
+        "long": "-73.212646484375"
+        }
+

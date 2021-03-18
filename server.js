@@ -20,8 +20,8 @@ app.get("/api/:id", (req, res) => {
 // app.get("/bars/:id")
 //   res.sendFile(path.resolve(`/api/${req.params.id}.json`)
 
-// app.get('*', (req,res)) =>
-// res.sendFile(path.resolve(.'/client/public/index.html'))
+app.get('*', (req,res)) =>
+res.sendFile(path.resolve(staticDir))
 
 app.listen(PORT, () => {
   console.log(`on port: ${PORT}`);

@@ -14,7 +14,7 @@ import "./style/App.css";
 import { Link } from "react-router-dom";
 import MyComponent from "./MyComponent";
 // my component is sibling component to allow zoom
-import glass from "../img/kisspng-wine-glass-martini-cocktail-cosmopolitan-margarita-cocktail-glass-vector-5b224f94e603c1.3837636015289752529422.png";
+import glass from "./img/kisspng-wine-glass-martini-cocktail-cosmopolitan-margarita-cocktail-glass-vector-5b224f94e603c1.3837636015289752529422.png";
 
 //changing the icon on the map
 let glassIcon = L.icon({
